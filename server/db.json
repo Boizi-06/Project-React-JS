@@ -1,0 +1,74 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "fullName": "Hoàng Sơn",
+      "email": "son666727@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "fullName": "Minh Duy",
+      "email": "Minhduy@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "fullname": "boizi",
+      "email": "boizi@gmail.com",
+      "password": "hoangson11"
+    }
+  ],
+  "project": [
+    {
+      "id": 1,
+      "projectName": "xây dựng website thương mại ",
+      "img": "https://res.cloudinary.com/dnjubw5ta/image/upload/v1759450329/abyjug3fn4kzd21ci7r5.jpg",
+      "members": [
+        {
+          "userId": 1,
+          "fullName": "Hoàng Sơn",
+          "role": "fullStack develop"
+        },
+        {
+          "userId": 2,
+          "fullName": "Minh duy",
+          "role": "fontend develop"
+        }
+      ],
+      "task": [
+        {
+          "id": 1,
+          "taskName": "soạn thảo đề cương dự ấn",
+          "assigneeId": 1,
+          "projectId": 1,
+          "asginDate": "2025-03-24",
+          "dueDate": "2025-03-24",
+          "priority": "thấp",
+          "progress": "đúng tiến độ",
+          "status": "To Do"
+        },
+        {
+          "id": 2,
+          "taskName": "soạn thảo đề cương dự ấn",
+          "assigneeId": 1,
+          "projectId": 2,
+          "asginDate": "2025-04-24",
+          "dueDate": "2025-04-24",
+          "priority": "cao",
+          "progress": "đúng tiến độ",
+          "status": "Pending"
+        }
+      ],
+      "description": "dự án shopp"
+    },
+    {
+      "projectName": "web cá ngựa",
+      "description": "wweb tai xiu",
+      "img": "https://res.cloudinary.com/dnjubw5ta/image/upload/v1759460473/khesuparjlf4ddeqd0zo.jpg",
+      "members": [],
+      "task": [],
+      "id": 2
+    }
+  ]
+}

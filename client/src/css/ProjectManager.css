@@ -1,0 +1,122 @@
+/* Trang bao ngoài */
+.project-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 1475px;
+  background: #f5f6fa;
+}
+
+/* Container full màn hình */
+.project-container {
+  flex: 1;
+  width: 100%;              /* full chiều ngang */
+  padding: 20px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+/* Header */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Nút thêm dự án */
+.btn-add {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-add:hover {
+  background: #0056b3;
+}
+
+/* Input tìm kiếm */
+.search-input {
+  width: 300px;   /* giữ gọn ở bên phải */
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  float: right;
+}
+
+/* Bảng */
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.project-table th {
+  background: #f0f0f0;
+  font-weight: bold;
+}
+
+/* Nút hành động */
+.btn-edit {
+  background: #ffc107;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-delete {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-share {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Phân trang */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: white;
+}
+
+.pagination button:hover {
+  background: #f0f0f0;
+}

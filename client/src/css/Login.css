@@ -1,0 +1,36 @@
+.login-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9fbfd;
+}
+
+.login-card {
+  width: 400px;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 20px 30px;
+  background: #fff;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 30px !important;
+}
+
+.login-btn {
+  border-radius: 8px !important;
+}
+
+.login-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-footer a {
+  color: #0066ff;
+  font-weight: bold;
+  text-decoration: none;
+}

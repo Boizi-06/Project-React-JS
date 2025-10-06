@@ -1,0 +1,31 @@
+.app-header {
+  background: #1c1c1c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 40px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.app-footer {
+  background: #1c1c1c;
+  color: #bbb;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: auto; /* Đẩy footer xuống dưới */
+}
